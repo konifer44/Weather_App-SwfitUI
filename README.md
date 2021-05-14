@@ -58,10 +58,12 @@ guard let locationKeyUrl = URL(string: "http://dataservice.accuweather.com/locat
             }
             if let twelveHoursForecastJSON = try? JSON(data: twelveHoursForecastData) {
                 DispatchQueue.main.async {
-                /// more to see in code
+                     // more to see in code 
+                    }
                 }
-               }
-               }
+            }
+        }.resume()
+    }
 ```
 ## Tech
   - Core Location
