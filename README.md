@@ -43,7 +43,6 @@ guard let locationKeyUrl = URL(string: "http://dataservice.accuweather.com/locat
 ## Get weather forecast
 ```swift 
  func getTwelveHourForecast(){
-        print("Get 12")
         guard let forecastUrl = URL(string: "http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/\(self.locationKey)?apikey=\(self.apiKey)&metric=true") else {
             print("Invalid Forecast URL")
             return
