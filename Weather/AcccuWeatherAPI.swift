@@ -16,12 +16,8 @@ class CurrentWeatherConditions: ObservableObject{
     @Published var temporaryForecast = hourForecast()
     
     var id = UUID()
-    // let apiKey: String = "NKQfAzvcsKyCd5RU7oSlbgJf6YWtSnH4"
-    // let apiKey: String = "eh6A8aoUHmaYDaHpbutlGVtQ0fO0KS7m"
-    //let apiKey: String = "Q6Wgct87OtRkSyMeyAWWNCBFHGH37tb3"
-    //let apiKey: String = "bs8DSHpvxinAraE8aXaAJbfXVWUwqRV8"
-    //let apiKey: String = "jhCRVXJONjWgv7FXoZeX9o19WgYYuKkW"
-    let apiKey: String = "14SMN2GUoe2MVd1lvsTZPpjZQshfxhoA"
+    
+    let apiKey: String = "enter api key"
     var locationKey = String()
     
     struct currentConditionsDataType : Identifiable {
