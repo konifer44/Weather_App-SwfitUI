@@ -5,10 +5,6 @@
  <h3>Screenshots</h3>
   <p align="center">
   <img src="1.PNG" alt="drawing" width="200"/>
-  <img src="2.PNG" alt="drawing" width="200"/>
-</p>
-  
-  <p align="center">
   <img src="3.PNG" alt="drawing" width="200"/>
   <img src="4.PNG" alt="drawing" width="200"/>
 </p>
